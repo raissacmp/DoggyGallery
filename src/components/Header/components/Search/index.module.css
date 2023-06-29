@@ -1,0 +1,12 @@
+.input {
+  height: 2.8125rem;
+  width: 18.75rem;
+  border: 0.125rem solid #ffafcc;
+  border-radius: 0.625rem;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #CDB4DB;
+}

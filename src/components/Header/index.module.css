@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+}
+
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 6.25rem;
+}
+
+.mainTitle {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.menuContainer {
+  display: flex;
+}
+
+.menuItem {
+  list-style: none;
+  padding: 0 0.625rem;
+}
+
+.menuItem a {
+  color: #cdb4db;
+  text-decoration: none;
+}
+
+.menuItem a:hover {
+  color: #A2D2FF;
+}
+
+.title {
+  font-size: 1.75rem;
+  color: #cdb4db;
+  font-weight: normal;
+  margin-left: 0.625rem
+}
