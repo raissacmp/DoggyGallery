@@ -1,10 +1,6 @@
-/* criando o root saga */
-import { all } from 'redux-saga/effects';
-import { watchFetchDogImages } from '../sagas/saga';
+import { all, fork } from "redux-saga/effects";
+import dogsSaga from "./dogsSaga/dogsSaga";
 
-export default function* rootSaga() {
-  yield all([
-    watchFetchDogImages(),
-    // Outros sagas podem ser adicionados aqui
-  ]);
+export function* rootSaga() {
+  yield all([fork(dogsSaga)]);
 }
